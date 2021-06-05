@@ -28,7 +28,6 @@ and its vigenere cipher with key IAMGROOT
 ###### Author: [Pal](github.com/PalChheda)
 
 > Use the file to validate your flag. Submit the flag in the form wtfCTF{...}
-> [question.txt]()
 
 ###### Exploit
 ```py
@@ -81,9 +80,6 @@ for i4 in str:
 ###### Author: [OrkinKIng](github.com/nithinchowdary007)
 
 >Are you the hacker or a coder?    
-> [hacker.png]()    
-> [coder.png]()    
-> [encrypt.py]()
 
 ###### Exploit
 ```py
@@ -106,8 +102,6 @@ new_image.save("Fl48.png", "PNG")
 ###### Author: [OrkinKIng](github.com/nithinchowdary007)
 
 > Your hacker friend wants to tell you something important. But he always pulls pranks on you. Do you think this is one of them? =)   
-> [3ncrypt.png]()    
-> [msg.txt]()    
 
 ###### Exploit
 ```py
@@ -182,7 +176,6 @@ Decrytion Tool: http://sladex.org/blowfish.js/
 ###### Author: [Pal](github.com/PalChheda)
 
 > You can't! ;)
-> [keylogger.png]()
 
 ###### Exploit
 ```
@@ -192,7 +185,7 @@ Simply type the commads on the vim editor to get a base64 encrypted flag.
 ###### wtfCTF{Vim_eDit0r_i$_4weS0mE}
 
 #### m15tery_Box
-###### Author: [AyushVatsa](github.com/mrVatsa)
+###### Author: [AyushVatsa](github.com/mrvatsa)
 
 >I keep losing my “keys”. Can you help me find it?    
 
