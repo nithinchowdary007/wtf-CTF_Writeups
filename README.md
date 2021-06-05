@@ -313,7 +313,7 @@ As of now, none of the tools support python 3.9 so i have compiled the code usin
 ###### Flag: wtfCTF{3Z_R3VER53}
 
 #### a2z's playground
-###### Author: [Xyroscar](github.com/ShadowRnG)
+###### Author: [ShadowRnG](github.com/ShadowRnG)
 
 >a2z is a happy little kid in a program. He's like any other kid and he likes playing games, candy, comic books, frequency, puppies, balloons and ice cream like >any other normal kid. He also likes a particular string "ihavealotoffunplayingwithu". See if you can win his favour and get the flag.
 
