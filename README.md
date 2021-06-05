@@ -192,7 +192,7 @@ Simply type the commads on the vim editor to get a base64 encrypted flag.
 ###### wtfCTF{Vim_eDit0r_i$_4weS0mE}
 
 #### m15tery_Box
-###### Author: [AyushVatsa](github.com/AyushVatsa)
+###### Author: [AyushVatsa](github.com/mrVatsa)
 
 >I keep losing my “keys”. Can you help me find it?    
 
@@ -303,7 +303,7 @@ Correct the currupted chuck data of retrieved files and find the correct flag fr
 ## Reverse
 
 #### H3ll0R3v
-###### Author: [Xyroscar](github.com/xyroscar)
+###### Author: [Xyroscar](github.com/Xyroscar)
 
 >Hello bois!
 
@@ -320,7 +320,7 @@ As of now, none of the tools support python 3.9 so i have compiled the code usin
 ###### Flag: wtfCTF{3Z_R3VER53}
 
 #### a2z's playground
-###### Author: [Xyroscar](github.com/xyroscar)
+###### Author: [Xyroscar](github.com/ShadowRnG)
 
 >a2z is a happy little kid in a program. He's like any other kid and he likes playing games, candy, comic books, frequency, puppies, balloons and ice cream like >any other normal kid. He also likes a particular string "ihavealotoffunplayingwithu". See if you can win his favour and get the flag.
 
@@ -413,7 +413,7 @@ sock.interactive()
 ## Web
 
 #### M4sk3r
-###### Author: [hackerb0ne](github.com/hackerb0ne)
+###### Author: [hackerb0ne](github.com/Hackerb0ne)
 
 >Can you Mask it?  https://masker.herokuapp.com/
 
@@ -437,7 +437,7 @@ Damn, nice one you get to enjoy this : wtfCTF{just_4n0th3r_h34d3r}
 ###### Flag: wtfCTF{just_4n0th3r_h34d3r}
 
 #### T3a_T1me
-###### Author: [TheProton](github.com/ParthivMenon)
+###### Author: [TheProton](github.com/Parthiv-M)
 
 >Can you help John?  https://timeisthekey.herokuapp.com/
 
