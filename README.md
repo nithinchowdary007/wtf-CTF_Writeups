@@ -412,7 +412,11 @@ sock.interactive()
 
 ###### Exploit
 ```
-Basically Heroku manipulates the X-Forwarded-For header so it's tricky to assess the header IP list for the client's IP because we don't have clarity which IP is added from the start and which one from the back. The challenge is to get the first IP, the 3rd IP and the last IP in the list of IP's in the list of IP's to be the same. Now, this is a tricky task unless you know that passing another X-Forwarded-For header request will append the IP's passed in the second header to the IP list.
+Firstly the player has to scavenge the website for possible code leaks. One good way is to use tools like dirbuster or just try to manually find routes.
+Once the site is scavenged and found `/source`, the challenge is pretty straight forward. The player needs to send a request to `/getFlag` with the X-Forwarded-For header which contains the IP 6.9.6.9 in some order which the backend checks for. Now in the source code its hinted that the IP check is done for indices 0,2,-1 which translates to 0th, 2nd and last indice in the IP list.
+
+Basically Heroku manipulates the X-Forwarded-For header so it's tricky to assess the header IP list for the client's IP because we don't have clarity which IP is 
+added from the start and which one from the back. The challenge is to get the first IP, the 3rd IP and the last IP in the list of IP's in the list of IP's to be the same. Now, this is a tricky task unless you know that passing another X-Forwarded-For header request will append the IP's passed in the second header to the IP list.
 
 Now for getting the flag:
 
@@ -422,9 +426,16 @@ Now for getting the flag:
     X-Forwarded-For: 6.9.6.9, X.X.X.X , 6.9.6.9
     X-Forwarded-For: 6.9.6.9
 
+Final IP list will look like :
+`IP-List: [6.9.6.9, X.X.X.X, 6.9.6.9, <YOUR_IP_ADDRESS>, 6.9.6.9]`
+
 If you did it right, you should get :
 
 Damn, nice one you get to enjoy this : wtfCTF{just_4n0th3r_h34d3r}
+
+The challenge was to pass another X-Forwarded-For header since it appends the IPs passed in the second header request to your first IP list.
+
+To read more on the vulnerabilities caused due to IP Spoofing : [Click here](https://totaluptime.com/kb/prevent-x-forwarded-for-spoofing-or-manipulation/)
 
 ```
 ###### Flag: wtfCTF{just_4n0th3r_h34d3r}
