@@ -286,13 +286,37 @@ Once the key is retreived, they may use the following tool to decrypt the flag: 
 
 ###### Exploit
 ```
-Check imageinfo using volatility
-Check pslist, we observer cmd and winrar
-check cmdscan(volatility 2), we find a string not sure where to use[password for zip file]
-as winrar is running, check file scan with grepping rar or zip, we get 1mP.zip encrypted with pwd
-use the string we got in cmdscan as pwd and we get the flag
-                                                        
+1) Check imageinfo using volatility
+
+$ python2 vol.py -f /home/orkinking/Documents/Incognito/wtfCTF/W1n_W0n/Challenge.raw imageinfo
 ```
+![imageinfo.png](./images/imageinfo.png)
+```
+2) Check pslist, we observer cmd and winrar
+
+$ python2 vol.py -f /home/orkinking/Documents/Incognito/wtfCTF/W1n_W0n/Challenge.raw ‑‑profile=Win7SP1x64  pslist
+```
+![pslist.png](./images/pslist.png)
+```
+3) check cmdscan(volatility 2), we find a string not sure where to use[password for zip file],  
+
+$ python2 vol.py -f /home/orkinking/Documents/Incognito/wtfCTF/W1n_W0n/Challenge.raw --profile=Win7SP1x64 cmdscan
+```
+![cmdscan.png](./images/cmdscan.png)
+```
+4) As winrar is running, check file scan with grepping rar or zip,
+
+$ python vol.py -f /home/orkinking/Documents/Incognito/wtfCTF/W1n_W0n/Challenge.raw  windows.filescan | grep "zip"
+```
+![filescan.png](./images/filescan.png)
+```
+5) we get 1mP.zip encrypted with pwd
+use the string we got in cmdscan as pwd and we get the flag
+
+$ python2 vol.py -f /home/orkinking/Documents/Incognito/wtfCTF/W1n_W0n/Challenge.raw --profile=Win7SP1x64 dumpfiles -Q 0x9793930 -D ~/Downloads
+```
+![extract.png](./images/extract.png)
+
 ###### Flag: wtfCTF{W1nd0w5_1s_f0r_N0085}
 
 #### W1n_W0n_Pr0
