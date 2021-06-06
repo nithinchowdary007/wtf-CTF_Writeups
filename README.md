@@ -330,10 +330,19 @@ $ python2 vol.py -f /home/orkinking/Documents/Incognito/wtfCTF/W1n_W0n/Challenge
 >FLAG FORMAT: wtfCTF{count_MM:SS_YYYY-MM-DD_HH:MM:SS}
 ###### Exploit
 ```
-python2 vol.py -f /home/orkinking/Documents/Incognito/wtfCTF/W1n_W0n_pr0/Challenge2.raw --profile=Win7SP1x64 userassist
-python2 vol.py --plugins=volatility_plugins/usbstor -f /home/orkinking/Documents/Incognito/wtfCTF/W1n_W0n_pr0/Challenge2.raw --profile=Win7SP1x64 usbstor
-                                                        
+$ python2 vol.py -f /home/orkinking/Documents/Incognito/wtfCTF/W1n_W0n_pr0/Challenge2.raw
 ```
+![imageinfo.png](./images/proimageinfo.png)
+```
+$ python2 vol.py -f /home/orkinking/Documents/Incognito/wtfCTF/W1n_W0n_pr0/Challenge2.raw --profile=Win7SP1x64 userassist
+```
+![userassist](./images/userassist.png)
+```
+$ python2 vol.py --plugins=volatility_plugins/usbstor -f /home/orkinking/Documents/Incognito/wtfCTF/W1n_W0n_pr0/Challenge2.raw --profile=Win7SP1x64 usbstor
+$ sudo git clone https://github.com/kevthehermit/volatility_plugins.git //usbstor plugin
+
+```
+![usbstor](./images/usbstor.png)
 ###### Flag: wtfCTF{45_08:17_2021-05-21_08:00:17}
 
 #### ArchTic
