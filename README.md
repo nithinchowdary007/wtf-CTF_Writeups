@@ -414,7 +414,7 @@ There were few files in those folders. Check every file headers, Incognit0.jpg a
 [Attenti0n.wav](./images/Attenti000n.wav)
 
 ```
-After fixing the image you can get 1st part of flag. The 2nd part of flag is in WAV file. Listening to the audio, U can find that it's DTMF tone. Decoding the audio using online tool you can get numbers( http://dialabc.com/sound/detect/ ). Those numbers are decimals. Converting them to text U get 2nd part of flag. 
+After fixing the image you can get 2nd part of flag. The 1st part of flag is in WAV file. Listening to the audio, U can find that it's DTMF tone. Decoding the audio using online tool you can get numbers( http://dialabc.com/sound/detect/ ). Those numbers are decimals. Converting them to text U get 2nd part of flag. 
 ```
 ###### Flag: wtfCTF{y0U_Ar3_g00d_47_Da7A_r3c0v3rY}
 
