@@ -296,6 +296,7 @@ Once the key is retreived, they may use the following tool to decrypt the flag: 
 ###### Author: [OrkinKing](github.com/nithinchowdary007)
 
 >My friend hid something on my system. I want to know what it is, But Im bad at analysing. Can you do it for me?
+>[W1n_W0n](https://drive.google.com/file/d/1sUMfmCLNy-xmytBCq8BX9Kj8aFoDuciq/view?usp=sharing)
 
 ###### Exploit
 ```
@@ -336,11 +337,14 @@ $ python2 vol.py -f /home/orkinking/Documents/Incognito/wtfCTF/W1n_W0n/Challenge
 ###### Author: [OrkinKing](github.com/nithinchowdary007)
 
 >Hey! One of my friends borrowed my computer yesterday and I don't know what he did with it. I have obtained a dump of my computer. I know you are an analyst and >want you to find out some information for me.
+>[W1n_W0n_pr0](https://drive.google.com/file/d/1frwEYsDzRw7_6OBGLJDV_aPUmIbxgUlm/view?usp=sharing)
 >
 >How many times is calc.exe exeuted?
 >How long is mspaint.exe being used?
 >There was a USB device connected to PC. When was it last connected?
 >FLAG FORMAT: wtfCTF{count_MM:SS_YYYY-MM-DD_HH:MM:SS}
+>
+
 ###### Exploit
 ```
 $ python2 vol.py -f /home/orkinking/Documents/Incognito/wtfCTF/W1n_W0n_pr0/Challenge2.raw
@@ -381,6 +385,7 @@ The flag is hidden in the file .flag.txt, which in turn is within: ./usr/lib/pyt
 ###### Author: [OrkinKing](github.com/nithinchowdary007)
 
 >Unfortunately my assistant deleted some of the files from my flash drive. Can you retrieve them and collect the flag?
+>[Lov3](https://drive.google.com/file/d/1SAcJdtPHGRKenyf-qiiT994fRbNLVC4w/view?usp=sharing)
 
 ###### Exploit
 ```
