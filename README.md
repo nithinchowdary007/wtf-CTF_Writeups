@@ -28,7 +28,7 @@ and its vigenere cipher with key IAMGROOT
 ###### Author: [Pal](github.com/PalChheda)
 
 > Use the file to validate your flag. Submit the flag in the form wtfCTF{...}
-> [question.txt](./files/crypto/validate/questin.txt)
+> [question.txt](./files/crypto/validate/question.txt)
 
 ###### Exploit
 ```py
