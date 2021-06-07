@@ -354,7 +354,7 @@ $ python2 vol.py -f /home/orkinking/Documents/Incognito/wtfCTF/W1n_W0n_pr0/Chall
 $ python2 vol.py -f /home/orkinking/Documents/Incognito/wtfCTF/W1n_W0n_pr0/Challenge2.raw --profile=Win7SP1x64 userassist
 ```
 ![calc](./images/calcexe.png)
-![mspaint](/images/mspaint.png)
+![mspaint](./images/mspaintexe.png)
 ```
 $ python2 vol.py --plugins=volatility_plugins/usbstor -f /home/orkinking/Documents/Incognito/wtfCTF/W1n_W0n_pr0/Challenge2.raw --profile=Win7SP1x64 usbstor
 $ sudo git clone https://github.com/kevthehermit/volatility_plugins.git //usbstor plugin
