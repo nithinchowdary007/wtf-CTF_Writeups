@@ -28,6 +28,7 @@ and its vigenere cipher with key IAMGROOT
 ###### Author: [Pal](github.com/PalChheda)
 
 > Use the file to validate your flag. Submit the flag in the form wtfCTF{...}
+> [question.txt](./files/crypto/validate/questin.txt)
 
 ###### Exploit
 ```py
@@ -79,7 +80,10 @@ for i4 in str:
 #### H4CK3R Vs C0d3R [250 pts]
 ###### Author: [OrkinKIng](github.com/nithinchowdary007)
 
->Are you the hacker or a coder?    
+>Are you the hacker or a coder? 
+> [hacker.png](./files/crypto/hackervscoder/hacker.png)
+> [coder.png](./files/crypto/hackervscoder/coder.png)
+> [encrypt.py](./files/crypto/hackervscoder/encr3pt.py)   
 
 ###### Exploit
 ```py
@@ -101,7 +105,9 @@ new_image.save("Fl48.png", "PNG")
 #### Pr4nK 
 ###### Author: [OrkinKIng](github.com/nithinchowdary007)
 
-> Your hacker friend wants to tell you something important. But he always pulls pranks on you. Do you think this is one of them? =)   
+> Your hacker friend wants to tell you something important. But he always pulls pranks on you. Do you think this is one of them? =)
+> [msg.txt](./files/crypto/prank/msg.txt)
+> [encrypt.py](./files/crypto/prank/3ncrypt.py)   
 
 ###### Exploit
 ```py
@@ -115,7 +121,8 @@ import binascii
 import random
 from sage import * 
 
-p = 179769313486231590772930519078902473361797697894230657273430081157732675805500963132708477322407536021120113879871393357658789768814416622492847430639474124377767893424865485276302219601246094119453082952085005768838150682342462881473913110540827237163350510684586298239947245938479716304835356329624224137216
+p = 
+  179769313486231590772930519078902473361797697894230657273430081157732675805500963132708477322407536021120113879871393357658789768814416622492847430639474124377767893424865485276302219601246094119453082952085005768838150682342462881473913110540827237163350510684586298239947245938479716304835356329624224137216
 b= 149733475951654611435485852636503462360419431625844811241225668286284799373393229121755413581332437253515308688705712198033222168356069135381725429207716799743452621132503434661154296474671641726765228754999897360358921101851429150740942709064201973884358010092795038667869719487279605307308212147315688112751
 x= 173461341675442229778539870748603655241686899663646258074060750036601965898752413973023079384002427740485457162226788195311386766376138369988471625366193107547326639644919642786662908338703301006188324040706160676236642204162838222449467093128063997396892938631156175288627180355448914848388762370224581157313
 
@@ -158,10 +165,12 @@ Finally, the flag can be decrypted using the values of c1, c2 and da. The tool c
 >Flag: 7YHJGW06TRzMQnvg2rw4oa6ugAlcMRg6
 >
 >They are threat modelers, can you understand their work and get the flag?
+>[keyfile.zip](./files/crypto/threatmodel/keyfile.zip)
+>[threatmodel.png](./files/crypto/threatmodel/Threat Model.png)
 
 ###### Exploit
 ```
-The given threat model Describes the blowfish encryption system. The first branch points towards a Feistel Cipher, which is the family of ciphers that Blowfish belongs to. The second describes known vulnerabilities and drawbacks of the blowfish cipher. The third points towards the encripted zip file containing the key.
+The given threat model/ Describes the blowfish encryption system. The first branch points towards a Feistel Cipher, which is the family of ciphers that Blowfish belongs to. The second describes known vulnerabilities and drawbacks of the blowfish cipher. The third points towards the encripted zip file containing the key.
 
 a = 7, b = 31, G = 203 Password: 5585060664533
 
@@ -176,6 +185,7 @@ Decrytion Tool: http://sladex.org/blowfish.js/
 ###### Author: [Pal](github.com/PalChheda)
 
 > You can't! ;)
+> [Keylogger.png](./files/misc/keylogger/Keylogger.png)
 
 ###### Exploit
 ```
@@ -187,7 +197,8 @@ Simply type the commads on the vim editor to get a base64 encrypted flag.
 #### m15tery_Box
 ###### Author: [AyushVatsa](github.com/mrvatsa)
 
->I keep losing my “keys”. Can you help me find it?    
+>I keep losing my “keys”. Can you help me find it?  
+>[LSBmy5t3ry80x.png](./files/misc/mysterybox/LSBmy5t3ry80x.png)  
 
 ###### Exploit
 ```
@@ -250,6 +261,7 @@ pAr!s}
 ###### Author: [ShadowRnG](github.com/ShadowRnG)
 
 > They've been ignored for far too long and now they're fed up. They decided that they needed to do something big to catch everyone's attention and so they >kidnapped the flag!! You're going to have to negotiate with them but don't worry, they aren't violent.......they just want to be understood.
+> [hideout.ws](./files/misc/revengeofinvisible/hideout.ws)
 
 
 ###### Exploit
@@ -267,6 +279,7 @@ To get the flag simply give the file as an input to a whitespace compiler and th
 >You wake up one day to your grandparent's whatsapp message which reads:
 >
 >Here's your flag: 8078DF5A840AD2A19DEA17654B1357400C8E4AD12573AA4D8CDD96ADD938625D
+>[whatsapp_challenge](files/misc/whatsapp/whatsapp_challenge.jpeg)
 
 
 ###### Exploit
@@ -383,6 +396,7 @@ Correct the currupted chuck data of retrieved files and find the correct flag fr
 ###### Author: [Xyroscar](github.com/Xyroscar)
 
 >Hello bois!
+>[Hello](./files/reverse/hellorev/Hello)
 
 ###### Exploit
 ```
@@ -400,6 +414,7 @@ As of now, none of the tools support python 3.9 so i have compiled the code usin
 ###### Author: [ShadowRnG](github.com/ShadowRnG)
 
 >a2z is a happy little kid in a program. He's like any other kid and he likes playing games, candy, comic books, frequency, puppies, balloons and ice cream like >any other normal kid. He also likes a particular string "ihavealotoffunplayingwithu". See if you can win his favour and get the flag.
+>[playground](./files/reverse/a2zsplayground/playground) 
 
 ###### Exploit
 ```
@@ -436,6 +451,7 @@ Once the correct array is provided, flagify will output the flag.
 >Son:I want my chocolate mom! Mother: Fill the water bottle son! :)
 >
 >nc 20.42.99.115 3000
+>[MoM5m4g1c](./files/pwn/momsmagic/MoM5m4g1C)
 
 ###### Exploit
 ```py
@@ -449,6 +465,8 @@ Once the correct array is provided, flagify will output the flag.
 > Do you have the key to escape from this room?
 >
 > nc 20.42.99.115 3143
+> [k3Y](./files/pwn/key/k3Y)
+
 ###### Exploit
 ```
 This challenge focuses on pseudo-random number generators, the randomness of the generated numbers depends on the seed, different seeds result in different sequence of numbers each time.
@@ -465,6 +483,8 @@ If we compile this code and add printf("%d", random), we get the value 180428938
 > Really? Do u really want to break the prison you built on your own? You are insane!
 >
 >nc 20.42.99.115 3213
+>[prison](./files/pwn/prisonbreak/prison)
+
 ###### Exploit
 ```py
 from pwn import *
