@@ -384,11 +384,34 @@ The flag is hidden in the file .flag.txt, which in turn is within: ./usr/lib/pyt
 
 ###### Exploit
 ```
-Open FTK imager and analyse the given USB image.
-retreive the files(some images,audios, text files). EXport the files.
-Correct the currupted chuck data of retrieved files and find the correct flag from all those file.
+Extract the file from archive, the file format is E01. Reading on this file format, U'll get to know about FTK imager if u don't know. So open the file in it. After going through Evidence Tree, U can find two interesting folders "Imazesss" and "Songzzz".
 ```
-###### wtfCTF{y0U_Ar3_g00d_47_Da7A_r3c0v3rY}
+![imageevidence](./images/imageevidence.PNG)
+
+<p float="left">
+  <img src="./images/imazesss.PNG" width="450" />
+  <img src="./images/songzzz.PNG" width="450" /> 
+</p>
+
+```
+There were few files in those folders. Check every file headers, Incognit0.jpg and Attention.wav file headers are incorrect. So extract those two files and fix the file headers with "Hexedit" or "Ghex" tools. 
+```
+<p float="left">
+  <img src="./images/corruptedimageflag.PNG" width="450" />
+  <img src="./images/correctedflagimage.PNG" width="450" /> 
+</p>
+<p float="left">
+  <img src="./images/curruptedflagaudio.PNG" width="450" />
+  <img src="./images/correctedflagaudio.PNG" width="450" /> 
+</p>
+
+![Incognit000111111](./images/Incognit000111111.jpg)
+[Attenti0n.wav](./images/Attenti000n.wav)
+
+```
+After fixing the image you can get 1st part of flag. The 2nd part of flag is in WAV file. Listening to the audio, U can find that it's DTMF tone. Decoding the audio using online tool you can get numbers( http://dialabc.com/sound/detect/ ). Those numbers are decimals. Converting them to text U get 2nd part of flag. 
+```
+###### Flag: wtfCTF{y0U_Ar3_g00d_47_Da7A_r3c0v3rY}
 
 ## Reverse
 
